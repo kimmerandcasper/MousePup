@@ -7,19 +7,20 @@
         body {
             font-family: 'Brush Script MT', cursive; /* Cursive font for specific sections */
             color: white; /* Text color set to white */
-            text-align: center;
-            padding: 20px;
             background-color: black; /* Background color set to black */
             margin: 0; /* Remove default margin */
+            padding: 20px;
             display: flex;
             justify-content: center;
         }
         .content {
             max-width: 600px; /* Adjust this value based on the actual width of your mission statement */
+            text-align: left; /* Align text to the left within the content area */
         }
         img.logo {
+            display: block;
             width: 300px;
-            margin-top: 15px;
+            margin: 15px auto; /* Center the logo */
         }
         .mission-statement, .additional-info {
             margin: 20px 0;
@@ -36,17 +37,41 @@
             margin: 20px auto;
             width: 100%;
         }
+        .contact-info {
+            font-size: 14px; /* Smaller font size for contact information */
+            color: white; /* Ensuring text color is white */
+            padding-bottom: 10px; /* Space below the contact info */
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-top: 25px;
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
     <div class="content">
+        <hr>
+        <div class="contact-info">
+            Contact Mouse Pup at <a href="mailto:mousepuptechnology@gmail.com">mousepuptechnology@gmail.com</a>
+        </div>
         <img src="MousePupLogo.png" alt="Mouse Pup Logo" class="logo">
         <div class="mission-statement">
             Keeping motorcycle riders alive through technology!
         </div>
-        <hr>
         <div class="additional-info">
             Mouse Pup is currently developing a Bluetooth communication app designed to provide riders with LED visual and haptic stimuli, triggered by movement in camera technology identifying objects in their blindspot.
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </body>
