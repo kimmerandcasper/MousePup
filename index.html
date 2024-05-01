@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: 'Brush Script MT', cursive; /* Cursive font for specific sections */
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Set professional font as the default */
             color: white; /* Text color set to white */
             background-color: black; /* Background color set to black */
             margin: 0; /* Remove default margin */
@@ -22,13 +22,10 @@
             width: 300px;
             margin: 15px auto; /* Center the logo */
         }
-        .mission-statement, .additional-info {
+        .mission-statement {
+            font-family: 'Brush Script MT', cursive; /* Cursive font for mission statement */
             margin: 20px 0;
             font-size: 24px; /* Increased font size for better visibility */
-        }
-        .additional-info {
-            font-family: 'Helvetica Neue', Arial, sans-serif; /* Professional, non-cursive font */
-            font-size: 20px; /* Slightly smaller font size for detailed info */
         }
         hr {
             border: 0;
@@ -39,14 +36,17 @@
         }
         .contact-info {
             font-size: 14px; /* Smaller font size for contact information */
-            color: white; /* Ensuring text color is white */
             padding-bottom: 10px; /* Space below the contact info */
+        }
+        .additional-info {
+            margin-top: 20px; /* Space before the paragraph */
+            font-size: 20px; /* Font size for detailed info */
         }
         .video-container {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            padding-top: 25px;
             height: 0;
+            margin-top: 20px; /* Space before the video container */
         }
         .video-container iframe {
             position: absolute;
@@ -59,13 +59,13 @@
 </head>
 <body>
     <div class="content">
-        <hr>
-        <div class="contact-info">
-            Contact Mouse Pup at <a href="mailto:mousepuptechnology@gmail.com">mousepuptechnology@gmail.com</a>
-        </div>
         <img src="MousePupLogo.png" alt="Mouse Pup Logo" class="logo">
         <div class="mission-statement">
             Keeping motorcycle riders alive through technology!
+        </div>
+        <hr>
+        <div class="contact-info">
+            Contact Mouse Pup at <a href="mailto:mousepuptechnology@gmail.com">mousepuptechnology@gmail.com</a>
         </div>
         <div class="additional-info">
             Mouse Pup is currently developing a Bluetooth communication app designed to provide riders with LED visual and haptic stimuli, triggered by movement in camera technology identifying objects in their blindspot.
