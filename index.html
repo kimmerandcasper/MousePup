@@ -11,18 +11,22 @@
             padding: 20px;
             background-color: black; /* Background color set to black */
             margin: 0; /* Remove default margin */
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            max-width: 600px; /* Adjust this value based on the actual width of your mission statement */
         }
         img.logo {
             width: 300px;
             margin-top: 15px;
         }
-        .mission-statement {
+        .mission-statement, .additional-info {
             margin: 20px 0;
             font-size: 24px; /* Increased font size for better visibility */
         }
         .additional-info {
             font-family: 'Helvetica Neue', Arial, sans-serif; /* Professional, non-cursive font */
-            margin: 20px 0;
             font-size: 20px; /* Slightly smaller font size for detailed info */
         }
         hr {
@@ -35,13 +39,15 @@
     </style>
 </head>
 <body>
-    <img src="MousePupLogo.png" alt="Mouse Pup Logo" class="logo">
-    <div class="mission-statement">
-        Keeping motorcycle riders alive through technology!
-    </div>
-    <hr>
-    <div class="additional-info">
-        Mouse Pup is currently developing a Bluetooth communication app designed to provide riders with LED visual and haptic stimuli, triggered by movement in camera technology identifying objects in their blindspot.
+    <div class="content">
+        <img src="MousePupLogo.png" alt="Mouse Pup Logo" class="logo">
+        <div class="mission-statement">
+            Keeping motorcycle riders alive through technology!
+        </div>
+        <hr>
+        <div class="additional-info">
+            Mouse Pup is currently developing a Bluetooth communication app designed to provide riders with LED visual and haptic stimuli, triggered by movement in camera technology identifying objects in their blindspot.
+        </div>
     </div>
 </body>
 </html>
