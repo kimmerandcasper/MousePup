@@ -5,43 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif; /* Set professional font as the default */
-            color: white; /* Text color set to white */
-            background-color: black; /* Background color set to black */
-            margin: 0; /* Remove default margin */
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+            color: white; 
+            background-color: black; 
+            margin: 0; 
             padding: 20px;
             display: flex;
             justify-content: center;
         }
         .content {
-            max-width: 600px; /* Adjust this value based on the actual width of your mission statement */
-            text-align: left; /* Align text to the left within the content area */
+            max-width: 600px; 
+            text-align: left; 
         }
         img.logo {
             display: block;
             width: 300px;
-            margin: 15px auto; /* Center the logo */
+            margin: 15px auto; 
         }
         .mission-statement {
-            font-family: 'Brush Script MT', cursive; /* Cursive font for mission statement */
+            font-family: 'Brush Script MT', cursive; 
             margin: 20px 0;
-            font-size: 24px; /* Increased font size for better visibility */
-            text-align: center; /* Center align the mission statement */
+            font-size: 24px;
+            text-align: center; 
         }
         hr {
             border: 0;
             height: 1px;
-            background-color: white; /* Changed to white to be visible on black background */
+            background-color: white; 
             margin: 20px auto;
             width: 100%;
         }
         .contact-info {
-            font-size: 14px; /* Smaller font size for contact information */
-            padding-bottom: 10px; /* Space below the contact info */
+            font-size: 14px;
+            padding-bottom: 10px; 
         }
         .additional-info {
-            margin-top: 20px; /* Space before the paragraph */
-            font-size: 20px; /* Font size for detailed info */
+            margin-top: 20px;
+            font-size: 20px; 
         }
         .video-container {
             position: relative;
@@ -49,7 +49,7 @@
             height: 0;
             margin-top: 20px; /* Space before the video container */
         }
-        .video-container iframe {
+        video {
             position: absolute;
             top: 0;
             left: 0;
@@ -72,7 +72,10 @@
             Mouse Pup is currently developing a Bluetooth communication app designed to provide riders with LED visual and haptic stimuli, triggered by movement in camera technology identifying objects in their blindspot.
         </div>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <video controls>
+                <source src="https://github.com/yourusername/yourrepository/raw/branch/path/to/GauntletVid.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </body>
