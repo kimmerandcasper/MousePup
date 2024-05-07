@@ -15,19 +15,21 @@
         }
         .content {
             max-width: 600px;
+            width: 100%;  /* Make sure content is not wider than the screen */
             text-align: left;
-            box-sizing: border-box;
+            box-sizing: border-box; /* Includes padding in the width calculation */
         }
         img.logo {
             display: block;
-            width: 300px;
+            width: 80%;  /* Responsive width */
             margin: 15px auto;
         }
-        .mission-statement {
+        .mission-statement, .contact-info, .additional-info {
             font-family: 'Brush Script MT', cursive;
             margin: 20px 0;
-            font-size: 24px;
+            font-size: 16px;  /* Adjusted font size */
             text-align: center;
+            word-wrap: break-word; /* Ensures text wraps to avoid overflow */
         }
         hr {
             border: 0;
@@ -35,15 +37,6 @@
             background-color: white;
             margin: 20px auto;
             width: 100%;
-        }
-        .contact-info {
-            font-size: 14px;
-            padding-bottom: 10px;
-        }
-        .additional-info {
-            margin-top: 20px;
-            font-size: 20px;
-            word-wrap: break-word;
         }
         .video-container {
             position: relative;
@@ -59,11 +52,17 @@
             height: 100%;
         }
         .iphone-img {
-            display: block; /* ensures the image does not inline */
-            width: 414px; /* approx width of iPhone Pro Max */
-            height: auto; /* maintain aspect ratio */
-            margin: 20px auto; /* centering the image */
-            border: 1px solid white; /* adds a thin white border */
+            display: block;
+            width: 100%;  /* Responsive width */
+            height: auto;
+            margin: 20px auto;
+            border: 1px solid white;
+        }
+        @media (max-width: 600px) {
+            .content, .additional-info {
+                font-size: 14px; /* Smaller font size for small screens */
+                padding: 10px;
+            }
         }
     </style>
 </head>
