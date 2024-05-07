@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Consistent font for simplicity and professionalism */
             color: white;
             background-color: black;
             margin: 0;
@@ -15,21 +15,20 @@
         }
         .content {
             max-width: 600px;
-            width: 100%;  /* Make sure content is not wider than the screen */
-            text-align: left;
+            width: 100%; /* Ensure content does not exceed the width of the screen */
+            text-align: left; /* Align text to the left for a more standard reading flow */
             box-sizing: border-box; /* Includes padding in the width calculation */
         }
         img.logo {
             display: block;
-            width: 80%;  /* Responsive width */
-            margin: 15px auto;
+            width: 80%; /* Responsive width for the logo */
+            margin: 15px auto; /* Center logo horizontally */
         }
-        .mission-statement, .contact-info, .additional-info {
-            font-family: 'Brush Script MT', cursive;
+        .mission-statement {
+            font-family: 'Brush Script MT', cursive; /* Keeping the cursive font for the mission statement for emphasis */
             margin: 20px 0;
-            font-size: 16px;  /* Adjusted font size */
-            text-align: center;
-            word-wrap: break-word; /* Ensures text wraps to avoid overflow */
+            font-size: 24px; /* Larger font size for emphasis */
+            text-align: center; /* Center align the mission statement for focus */
         }
         hr {
             border: 0;
@@ -37,6 +36,12 @@
             background-color: white;
             margin: 20px auto;
             width: 100%;
+        }
+        .contact-info, .additional-info {
+            font-family: 'Arial', sans-serif; /* More professional font for contact and additional information */
+            font-size: 14px; /* Standard font size for readability */
+            text-align: left; /* Left align text for standard reading flow */
+            padding-bottom: 10px; /* Space below the text */
         }
         .video-container {
             position: relative;
@@ -52,16 +57,16 @@
             height: 100%;
         }
         .iphone-img {
-            display: block;
-            width: 100%;  /* Responsive width */
-            height: auto;
-            margin: 20px auto;
-            border: 1px solid white;
+            display: block; /* Ensures the image does not display inline */
+            width: 100%; /* Responsive width for the image */
+            height: auto; /* Maintain aspect ratio */
+            margin: 20px auto; /* Center image horizontally */
+            border: 1px solid white; /* Adds a thin white border for visual separation */
         }
         @media (max-width: 600px) {
             .content, .additional-info {
-                font-size: 14px; /* Smaller font size for small screens */
-                padding: 10px;
+                font-size: 14px; /* Adjust font size for smaller screens */
+                padding: 10px; /* Padding around text for better readability on small devices */
             }
         }
     </style>
