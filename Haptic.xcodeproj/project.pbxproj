@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7906E5B82B6EC9AA001E68E5 /* BlankEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7906E5B72B6EC9AA001E68E5 /* BlankEditor.swift */; };
+		7930E2BC2B4F87BD00CF31DF /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 7930E2BB2B4F87BD00CF31DF /* Starscream */; };
+		7952EFBB2B68CD370047FBB5 /* TitlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952EFBA2B68CD370047FBB5 /* TitlePage.swift */; };
+		796183712B98365A00EC3FF4 /* HapticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796183702B98365A00EC3FF4 /* HapticApp.swift */; };
+		796183732B98365A00EC3FF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796183722B98365A00EC3FF4 /* ContentView.swift */; };
+		796183752B98365B00EC3FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796183742B98365B00EC3FF4 /* Assets.xcassets */; };
+		796183782B98365C00EC3FF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796183772B98365C00EC3FF4 /* Preview Assets.xcassets */; };
+		796183822B98365C00EC3FF4 /* Haptic_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796183812B98365C00EC3FF4 /* Haptic_Watch_AppTests.swift */; };
+		7961838C2B98365C00EC3FF4 /* Haptic_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7961838B2B98365C00EC3FF4 /* Haptic_Watch_AppUITests.swift */; };
+		7961838E2B98365C00EC3FF4 /* Haptic_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7961838D2B98365C00EC3FF4 /* Haptic_Watch_AppUITestsLaunchTests.swift */; };
+		796183912B98365C00EC3FF4 /* Haptic Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7961836E2B98365900EC3FF4 /* Haptic Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79C63C0E2B8BC1E200F1628D /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79C63C0C2B8BC0AF00F1628D /* AmaticSC-Regular.ttf */; };
+		79C63C0F2B8BC1E200F1628D /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79C63C0D2B8BC0B700F1628D /* AmaticSC-Bold.ttf */; };
+		79FB8B8A2B1F8E590061A157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FB8B892B1F8E590061A157 /* AppDelegate.swift */; };
+		79FB8B8E2B1F8E5A0061A157 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79FB8B8D2B1F8E5A0061A157 /* Actions.sks */; };
+		79FB8B952B1F8E5A0061A157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FB8B932B1F8E5A0061A157 /* Main.storyboard */; };
+		79FB8B972B1F8E5C0061A157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FB8B962B1F8E5C0061A157 /* Assets.xcassets */; };
+		79FB8B9A2B1F8E5C0061A157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FB8B982B1F8E5C0061A157 /* LaunchScreen.storyboard */; };
+		79FF6CCD2B96C5AC00AB5AD8 /* SmearSmearBackground_LaunchPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 79FF6CCC2B96C5AC00AB5AD8 /* SmearSmearBackground_LaunchPhoto.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7961837E2B98365C00EC3FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FB8B7E2B1F8E590061A157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7961836D2B98365900EC3FF4;
+			remoteInfo = "Haptic Watch App";
+		};
+		796183882B98365C00EC3FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FB8B7E2B1F8E590061A157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7961836D2B98365900EC3FF4;
+			remoteInfo = "Haptic Watch App";
+		};
+		7961838F2B98365C00EC3FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FB8B7E2B1F8E590061A157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7961836D2B98365900EC3FF4;
+			remoteInfo = "Haptic Watch App";
+		};
+		79FB8BA02B1F8E5C0061A157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FB8B7E2B1F8E590061A157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FB8B852B1F8E590061A157;
+			remoteInfo = "The Broken Lantern";
+		};
+		79FB8BAA2B1F8E5C0061A157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FB8B7E2B1F8E590061A157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FB8B852B1F8E590061A157;
+			remoteInfo = "The Broken Lantern";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		796183952B98365D00EC3FF4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				796183912B98365C00EC3FF4 /* Haptic Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7906E5B72B6EC9AA001E68E5 /* BlankEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankEditor.swift; sourceTree = "<group>"; };
+		7952EFBA2B68CD370047FBB5 /* TitlePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlePage.swift; sourceTree = "<group>"; };
+		7961836E2B98365900EC3FF4 /* Haptic Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796183702B98365A00EC3FF4 /* HapticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticApp.swift; sourceTree = "<group>"; };
+		796183722B98365A00EC3FF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		796183742B98365B00EC3FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796183772B98365C00EC3FF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7961837D2B98365C00EC3FF4 /* Haptic Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haptic Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796183812B98365C00EC3FF4 /* Haptic_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic_Watch_AppTests.swift; sourceTree = "<group>"; };
+		796183872B98365C00EC3FF4 /* Haptic Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haptic Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7961838B2B98365C00EC3FF4 /* Haptic_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		7961838D2B98365C00EC3FF4 /* Haptic_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7982E7052B98E9F7001DD453 /* Haptic-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Haptic-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		79C63C0C2B8BC0AF00F1628D /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AmaticSC-Regular.ttf"; path = "../../../../SmearResources/FarmTheme/Fonts/Amatic_SC/AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		79C63C0D2B8BC0B700F1628D /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AmaticSC-Bold.ttf"; path = "../../../../SmearResources/FarmTheme/Fonts/Amatic_SC/AmaticSC-Bold.ttf"; sourceTree = "<group>"; };
+		79FB8B862B1F8E590061A157 /* Haptic App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FB8B892B1F8E590061A157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79FB8B8D2B1F8E5A0061A157 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		79FB8B942B1F8E5A0061A157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79FB8B962B1F8E5C0061A157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FB8B992B1F8E5C0061A157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79FB8B9F2B1F8E5C0061A157 /* HapticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FB8BA92B1F8E5C0061A157 /* HapticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FF6CCC2B96C5AC00AB5AD8 /* SmearSmearBackground_LaunchPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SmearSmearBackground_LaunchPhoto.png; path = "Images/General Images/Titles/SmearSmearBackground_LaunchPhoto.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7961836B2B98365900EC3FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7961837A2B98365C00EC3FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796183842B98365C00EC3FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8B832B1F8E590061A157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7930E2BC2B4F87BD00CF31DF /* Starscream in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8B9C2B1F8E5C0061A157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8BA62B1F8E5C0061A157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794F3F4A2B3F4C1700B2B82A /* General App */ = {
+			isa = PBXGroup;
+			children = (
+				79FB8B892B1F8E590061A157 /* AppDelegate.swift */,
+				79FB8B8D2B1F8E5A0061A157 /* Actions.sks */,
+				79FB8B982B1F8E5C0061A157 /* LaunchScreen.storyboard */,
+				79FB8B932B1F8E5A0061A157 /* Main.storyboard */,
+				79FB8B962B1F8E5C0061A157 /* Assets.xcassets */,
+			);
+			path = "General App";
+			sourceTree = "<group>";
+		};
+		7961836F2B98365A00EC3FF4 /* Haptic Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7982E7052B98E9F7001DD453 /* Haptic-Watch-App-Info.plist */,
+				796183702B98365A00EC3FF4 /* HapticApp.swift */,
+				796183722B98365A00EC3FF4 /* ContentView.swift */,
+				796183742B98365B00EC3FF4 /* Assets.xcassets */,
+				796183762B98365C00EC3FF4 /* Preview Content */,
+			);
+			path = "Haptic Watch App";
+			sourceTree = "<group>";
+		};
+		796183762B98365C00EC3FF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				796183772B98365C00EC3FF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		796183802B98365C00EC3FF4 /* Haptic Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				796183812B98365C00EC3FF4 /* Haptic_Watch_AppTests.swift */,
+			);
+			path = "Haptic Watch AppTests";
+			sourceTree = "<group>";
+		};
+		7961838A2B98365C00EC3FF4 /* Haptic Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7961838B2B98365C00EC3FF4 /* Haptic_Watch_AppUITests.swift */,
+				7961838D2B98365C00EC3FF4 /* Haptic_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Haptic Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		796994562B423A6500437601 /* Haptic */ = {
+			isa = PBXGroup;
+			children = (
+				79F709CC2B718D67005E2CF5 /* Swift Files */,
+				79F709CB2B718D27005E2CF5 /* Resource Files */,
+			);
+			path = Haptic;
+			sourceTree = "<group>";
+		};
+		799F16952B8E898C00C60077 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		79C63C0B2B8BC09800F1628D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				79C63C0C2B8BC0AF00F1628D /* AmaticSC-Regular.ttf */,
+				79C63C0D2B8BC0B700F1628D /* AmaticSC-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		79F709C82B716E69005E2CF5 /* TitlePage */ = {
+			isa = PBXGroup;
+			children = (
+				7952EFBA2B68CD370047FBB5 /* TitlePage.swift */,
+			);
+			path = TitlePage;
+			sourceTree = "<group>";
+		};
+		79F709CB2B718D27005E2CF5 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FF6CCC2B96C5AC00AB5AD8 /* SmearSmearBackground_LaunchPhoto.png */,
+				79C63C0B2B8BC09800F1628D /* Fonts */,
+			);
+			path = "Resource Files";
+			sourceTree = "<group>";
+		};
+		79F709CC2B718D67005E2CF5 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				794F3F4A2B3F4C1700B2B82A /* General App */,
+				79F709C82B716E69005E2CF5 /* TitlePage */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		79FB8B7D2B1F8E590061A157 = {
+			isa = PBXGroup;
+			children = (
+				7906E5B72B6EC9AA001E68E5 /* BlankEditor.swift */,
+				796994562B423A6500437601 /* Haptic */,
+				7961836F2B98365A00EC3FF4 /* Haptic Watch App */,
+				796183802B98365C00EC3FF4 /* Haptic Watch AppTests */,
+				7961838A2B98365C00EC3FF4 /* Haptic Watch AppUITests */,
+				79FB8B872B1F8E590061A157 /* Products */,
+				799F16952B8E898C00C60077 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		79FB8B872B1F8E590061A157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FB8B862B1F8E590061A157 /* Haptic App.app */,
+				79FB8B9F2B1F8E5C0061A157 /* HapticTests.xctest */,
+				79FB8BA92B1F8E5C0061A157 /* HapticUITests.xctest */,
+				7961836E2B98365900EC3FF4 /* Haptic Watch App.app */,
+				7961837D2B98365C00EC3FF4 /* Haptic Watch AppTests.xctest */,
+				796183872B98365C00EC3FF4 /* Haptic Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7961836D2B98365900EC3FF4 /* Haptic Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796183922B98365D00EC3FF4 /* Build configuration list for PBXNativeTarget "Haptic Watch App" */;
+			buildPhases = (
+				7961836A2B98365900EC3FF4 /* Sources */,
+				7961836B2B98365900EC3FF4 /* Frameworks */,
+				7961836C2B98365900EC3FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haptic Watch App";
+			productName = "Haptic Watch App";
+			productReference = 7961836E2B98365900EC3FF4 /* Haptic Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7961837C2B98365C00EC3FF4 /* Haptic Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796183962B98365D00EC3FF4 /* Build configuration list for PBXNativeTarget "Haptic Watch AppTests" */;
+			buildPhases = (
+				796183792B98365C00EC3FF4 /* Sources */,
+				7961837A2B98365C00EC3FF4 /* Frameworks */,
+				7961837B2B98365C00EC3FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7961837F2B98365C00EC3FF4 /* PBXTargetDependency */,
+			);
+			name = "Haptic Watch AppTests";
+			productName = "Haptic Watch AppTests";
+			productReference = 7961837D2B98365C00EC3FF4 /* Haptic Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796183862B98365C00EC3FF4 /* Haptic Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796183992B98365D00EC3FF4 /* Build configuration list for PBXNativeTarget "Haptic Watch AppUITests" */;
+			buildPhases = (
+				796183832B98365C00EC3FF4 /* Sources */,
+				796183842B98365C00EC3FF4 /* Frameworks */,
+				796183852B98365C00EC3FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796183892B98365C00EC3FF4 /* PBXTargetDependency */,
+			);
+			name = "Haptic Watch AppUITests";
+			productName = "Haptic Watch AppUITests";
+			productReference = 796183872B98365C00EC3FF4 /* Haptic Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		79FB8B852B1F8E590061A157 /* Haptic App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FB8BB32B1F8E5C0061A157 /* Build configuration list for PBXNativeTarget "Haptic App" */;
+			buildPhases = (
+				79FB8B822B1F8E590061A157 /* Sources */,
+				79FB8B832B1F8E590061A157 /* Frameworks */,
+				79FB8B842B1F8E590061A157 /* Resources */,
+				796183952B98365D00EC3FF4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796183902B98365C00EC3FF4 /* PBXTargetDependency */,
+			);
+			name = "Haptic App";
+			packageProductDependencies = (
+				7930E2BB2B4F87BD00CF31DF /* Starscream */,
+			);
+			productName = "The Broken Lantern";
+			productReference = 79FB8B862B1F8E590061A157 /* Haptic App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79FB8B9E2B1F8E5C0061A157 /* HapticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FB8BB62B1F8E5C0061A157 /* Build configuration list for PBXNativeTarget "HapticTests" */;
+			buildPhases = (
+				79FB8B9B2B1F8E5C0061A157 /* Sources */,
+				79FB8B9C2B1F8E5C0061A157 /* Frameworks */,
+				79FB8B9D2B1F8E5C0061A157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FB8BA12B1F8E5C0061A157 /* PBXTargetDependency */,
+			);
+			name = HapticTests;
+			productName = "The Broken LanternTests";
+			productReference = 79FB8B9F2B1F8E5C0061A157 /* HapticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79FB8BA82B1F8E5C0061A157 /* HapticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FB8BB92B1F8E5C0061A157 /* Build configuration list for PBXNativeTarget "HapticUITests" */;
+			buildPhases = (
+				79FB8BA52B1F8E5C0061A157 /* Sources */,
+				79FB8BA62B1F8E5C0061A157 /* Frameworks */,
+				79FB8BA72B1F8E5C0061A157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FB8BAB2B1F8E5C0061A157 /* PBXTargetDependency */,
+			);
+			name = HapticUITests;
+			productName = "The Broken LanternUITests";
+			productReference = 79FB8BA92B1F8E5C0061A157 /* HapticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FB8B7E2B1F8E590061A157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7961836D2B98365900EC3FF4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7961837C2B98365C00EC3FF4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7961836D2B98365900EC3FF4;
+					};
+					796183862B98365C00EC3FF4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7961836D2B98365900EC3FF4;
+					};
+					79FB8B852B1F8E590061A157 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					79FB8B9E2B1F8E5C0061A157 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 79FB8B852B1F8E590061A157;
+					};
+					79FB8BA82B1F8E5C0061A157 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 79FB8B852B1F8E590061A157;
+					};
+				};
+			};
+			buildConfigurationList = 79FB8B812B1F8E590061A157 /* Build configuration list for PBXProject "Haptic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79FB8B7D2B1F8E590061A157;
+			packageReferences = (
+				7930E2BA2B4F87BD00CF31DF /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
+			productRefGroup = 79FB8B872B1F8E590061A157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FB8B852B1F8E590061A157 /* Haptic App */,
+				79FB8B9E2B1F8E5C0061A157 /* HapticTests */,
+				79FB8BA82B1F8E5C0061A157 /* HapticUITests */,
+				7961836D2B98365900EC3FF4 /* Haptic Watch App */,
+				7961837C2B98365C00EC3FF4 /* Haptic Watch AppTests */,
+				796183862B98365C00EC3FF4 /* Haptic Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7961836C2B98365900EC3FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796183782B98365C00EC3FF4 /* Preview Assets.xcassets in Resources */,
+				796183752B98365B00EC3FF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7961837B2B98365C00EC3FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796183852B98365C00EC3FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8B842B1F8E590061A157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C63C0E2B8BC1E200F1628D /* AmaticSC-Regular.ttf in Resources */,
+				79C63C0F2B8BC1E200F1628D /* AmaticSC-Bold.ttf in Resources */,
+				79FF6CCD2B96C5AC00AB5AD8 /* SmearSmearBackground_LaunchPhoto.png in Resources */,
+				79FB8B952B1F8E5A0061A157 /* Main.storyboard in Resources */,
+				79FB8B972B1F8E5C0061A157 /* Assets.xcassets in Resources */,
+				79FB8B9A2B1F8E5C0061A157 /* LaunchScreen.storyboard in Resources */,
+				79FB8B8E2B1F8E5A0061A157 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8B9D2B1F8E5C0061A157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8BA72B1F8E5C0061A157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7961836A2B98365900EC3FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796183732B98365A00EC3FF4 /* ContentView.swift in Sources */,
+				796183712B98365A00EC3FF4 /* HapticApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796183792B98365C00EC3FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796183822B98365C00EC3FF4 /* Haptic_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796183832B98365C00EC3FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7961838C2B98365C00EC3FF4 /* Haptic_Watch_AppUITests.swift in Sources */,
+				7961838E2B98365C00EC3FF4 /* Haptic_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8B822B1F8E590061A157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7952EFBB2B68CD370047FBB5 /* TitlePage.swift in Sources */,
+				7906E5B82B6EC9AA001E68E5 /* BlankEditor.swift in Sources */,
+				79FB8B8A2B1F8E590061A157 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8B9B2B1F8E5C0061A157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FB8BA52B1F8E5C0061A157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7961837F2B98365C00EC3FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7961836D2B98365900EC3FF4 /* Haptic Watch App */;
+			targetProxy = 7961837E2B98365C00EC3FF4 /* PBXContainerItemProxy */;
+		};
+		796183892B98365C00EC3FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7961836D2B98365900EC3FF4 /* Haptic Watch App */;
+			targetProxy = 796183882B98365C00EC3FF4 /* PBXContainerItemProxy */;
+		};
+		796183902B98365C00EC3FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7961836D2B98365900EC3FF4 /* Haptic Watch App */;
+			targetProxy = 7961838F2B98365C00EC3FF4 /* PBXContainerItemProxy */;
+		};
+		79FB8BA12B1F8E5C0061A157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FB8B852B1F8E590061A157 /* Haptic App */;
+			targetProxy = 79FB8BA02B1F8E5C0061A157 /* PBXContainerItemProxy */;
+		};
+		79FB8BAB2B1F8E5C0061A157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FB8B852B1F8E590061A157 /* Haptic App */;
+			targetProxy = 79FB8BAA2B1F8E5C0061A157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79FB8B932B1F8E5A0061A157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FB8B942B1F8E5A0061A157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79FB8B982B1F8E5C0061A157 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FB8B992B1F8E5C0061A157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796183932B98365D00EC3FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Haptic Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Haptic-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Haptic;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.MousePup.haptic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.1;
+			};
+			name = Debug;
+		};
+		796183942B98365D00EC3FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Haptic Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Haptic-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Haptic;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.MousePup.haptic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.1;
+			};
+			name = Release;
+		};
+		796183972B98365D00EC3FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MousePup.haptic.Haptic-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haptic Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Haptic Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		796183982B98365D00EC3FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MousePup.haptic.Haptic-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haptic Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Haptic Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		7961839A2B98365D00EC3FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MousePup.haptic.Haptic-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Haptic Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7961839B2B98365D00EC3FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MousePup.haptic.Haptic-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Haptic Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		79FB8BB12B1F8E5C0061A157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79FB8BB22B1F8E5C0061A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79FB8BB42B1F8E5C0061A157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Turning on/off the LED";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79FB8BB52B1F8E5C0061A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Turning on/off the LED";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79FB8BB72B1F8E5C0061A157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic.hapticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Broken Lantern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Broken Lantern";
+			};
+			name = Debug;
+		};
+		79FB8BB82B1F8E5C0061A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic.hapticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Broken Lantern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Broken Lantern";
+			};
+			name = Release;
+		};
+		79FB8BBA2B1F8E5C0061A157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic.haptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Broken Lantern";
+			};
+			name = Debug;
+		};
+		79FB8BBB2B1F8E5C0061A157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47Q6WLN42J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MousePup.haptic.haptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Broken Lantern";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796183922B98365D00EC3FF4 /* Build configuration list for PBXNativeTarget "Haptic Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796183932B98365D00EC3FF4 /* Debug */,
+				796183942B98365D00EC3FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796183962B98365D00EC3FF4 /* Build configuration list for PBXNativeTarget "Haptic Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796183972B98365D00EC3FF4 /* Debug */,
+				796183982B98365D00EC3FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796183992B98365D00EC3FF4 /* Build configuration list for PBXNativeTarget "Haptic Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7961839A2B98365D00EC3FF4 /* Debug */,
+				7961839B2B98365D00EC3FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FB8B812B1F8E590061A157 /* Build configuration list for PBXProject "Haptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FB8BB12B1F8E5C0061A157 /* Debug */,
+				79FB8BB22B1F8E5C0061A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FB8BB32B1F8E5C0061A157 /* Build configuration list for PBXNativeTarget "Haptic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FB8BB42B1F8E5C0061A157 /* Debug */,
+				79FB8BB52B1F8E5C0061A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FB8BB62B1F8E5C0061A157 /* Build configuration list for PBXNativeTarget "HapticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FB8BB72B1F8E5C0061A157 /* Debug */,
+				79FB8BB82B1F8E5C0061A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FB8BB92B1F8E5C0061A157 /* Build configuration list for PBXNativeTarget "HapticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FB8BBA2B1F8E5C0061A157 /* Debug */,
+				79FB8BBB2B1F8E5C0061A157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7930E2BA2B4F87BD00CF31DF /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7930E2BB2B4F87BD00CF31DF /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7930E2BA2B4F87BD00CF31DF /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 79FB8B7E2B1F8E590061A157 /* Project object */;
+}
